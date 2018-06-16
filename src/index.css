@@ -3,3 +3,24 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+#root > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-style: italic;
+  color: hsla(316, 100%, 50%, 1);
+  text-shadow: -5px 5px 7px #000000;
+}
+
+button {
+  width: 250px;
+  height: 100px;
+  background: linear-gradient(45deg, black, white, black);
+  font-size: 22px;
+}
